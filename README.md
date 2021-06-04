@@ -23,7 +23,6 @@ pip install -r requirements.txt
 cd leam_us/seir
 ```
 Directly run *.ipynb using Google Colab.
-
 ## Model Training and Evaluation for LEAM-US Simulator
 ```
 cd leam_us/random
