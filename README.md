@@ -15,7 +15,7 @@ This repository is a PyTorch implementation of Accelerating Stochastic Simulatio
 * future
 
 To install requirements:
-```setup
+```
 pip install -r requirements.txt
 ```
 ## Model Training and Evaluation for SEIR Simulator
@@ -27,12 +27,12 @@ Directly run *.ipynb using Google Colab.
 ```
 cd leam_us/random
 python dcrnn_train_pytorch.py
-cd leam_us/maxzdiff
+cd ../maxzdiff
 python dcrnn_train_pytorch.py
-cd leam_us/meanstd
+cd ../meanstd
 python dcrnn_train_pytorch.py
-cd leam_us/maxentropy
+cd ../maxentropy
 python dcrnn_train_pytorch.py
-cd leam_us/random_maxzdiff
+cd ../random_maxzdiff
 python dcrnn_train_pytorch.py
 ```
