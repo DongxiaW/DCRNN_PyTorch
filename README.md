@@ -19,9 +19,21 @@ To install requirements:
 pip install -r requirements.txt
 ```
 ## Model Training and Evaluation for SEIR Simulator
-Directly run *.ipynb on Google colab.
+```
+cd leam_us/seir
+```
+Directly run *.ipynb using Google Colab.
 
 ## Model Training and Evaluation for LEAM-US Simulator
-```train
+```
+cd leam_us/random
+python dcrnn_train_pytorch.py
+cd leam_us/maxzdiff
+python dcrnn_train_pytorch.py
+cd leam_us/meanstd
+python dcrnn_train_pytorch.py
+cd leam_us/maxentropy
+python dcrnn_train_pytorch.py
+cd leam_us/random_maxzdiff
 python dcrnn_train_pytorch.py
 ```
